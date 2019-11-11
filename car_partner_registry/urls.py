@@ -19,7 +19,7 @@ from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 
-from car_partner.views.login_view import LoginView
+from car_partner.views.login_view import LoginViewSet
 
 app_name = 'CarToPartner App'
 
@@ -40,5 +40,5 @@ urlpatterns = [
 
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include('car_partner.urls')),
-    url(r'^login/$', LoginView.as_view()),
+    url(r'^login/$', LoginViewSet.as_view({'post': 'create'})),
 ]

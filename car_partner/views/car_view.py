@@ -7,7 +7,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from car_partner.constants import OBJECT_IS_DELETED, ERROR
-from car_partner.serializers import CarSerializer, PartnerSerializer, CarPartnerSerializer
+from car_partner.serializers import CarSerializer, CarPartnerSerializer
 from car_partner.models import Car, Partner
 from car_partner.utils import get_object_from_db, is_object_deleted, str_to_bool
 
