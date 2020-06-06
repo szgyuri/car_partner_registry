@@ -1,4 +1,4 @@
-Django==1.11.20
+Django==1.11.29
 django-unixtimestampfield==0.3.9
 psycopg2==2.8.4
 djangorestframework==3.10.3
