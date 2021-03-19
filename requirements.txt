@@ -1,7 +1,7 @@
 Django==1.11.20
 django-unixtimestampfield==0.3.9
 psycopg2==2.8.4
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 drf-yasg==1.17.0
 pytest-django==3.6.0
 django-logging-json==1.15
